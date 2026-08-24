@@ -1,0 +1,198 @@
+#header-top{
+        background: #111111;
+    padding: 10px 0;
+}
+.header-top-left p {
+    font-size: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 25px;
+    margin:  15px 0;
+}
+.header-top-links {
+    display: inline-block;
+    margin-right: 25px;
+}
+.header-top-links a {
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 28px;
+    text-decoration: none;
+    display: inline-block;
+}
+.main-nav li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #e53637;
+    -webkit-transition: all, 0.5s;
+    -o-transition: all, 0.5s;
+    transition: all, 0.5s;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+ @media (min-width: 768px){
+    #header-top{
+        display: block !important;
+    }
+ }
+ .main-nav{
+    display:flex;
+    gap:2.1rem;
+    margin:0; padding:0; list-style:none;
+  }
+  .main-nav a{
+    color:var(--ink);
+    text-decoration:none;
+    font-size:.95rem;
+    font-weight:500;
+    padding:.4rem 0;
+    position:relative;
+  }
+  .main-nav a.active,
+  .main-nav a:hover{ color:var(--accent); }
+
+  .header-icons{
+    display:flex;
+    align-items:center;
+    gap:1.4rem;
+  }
+  .header-icons a{
+    color:var(--ink);
+    display:inline-flex;
+    position:relative;
+  }
+  .header-icons a:hover{ color:var(--accent); }
+  .header-icons svg{ width:19px; height:19px; }
+  .cart-badge{
+    position:absolute; top:-8px; right:-9px;
+    background:var(--accent); color:#fff;
+    font-size:.6rem; width:15px; height:15px;
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .cart-total{
+    font-size:.85rem;
+    font-weight:600;
+    color:var(--ink);
+    border-left:1px solid var(--border);
+    padding-left:1.4rem;
+  }
+
+  /* mobile toggler */
+  .nav-toggle{
+    border:none; background:none; font-size:1.4rem; display:none;
+  }
+
+  @media (max-width: 991px){
+    .main-nav{
+      display:none;
+      flex-direction:column;
+      gap:0;
+      width:100%;
+      margin-top:1rem;
+    }
+    .main-nav.open{ display:flex; }
+    .main-nav a{ padding:.6rem 0; border-bottom:1px solid var(--border); }
+    .header-main .container{ flex-wrap:wrap; }
+    .nav-toggle{ display:block; }
+    .header-icons{ margin-left:auto; }
+  }
+
+  .breadcrumb-option {
+    background: rgb(243, 242, 238);
+    padding: 40px 0px;
+}
+.breadcrumb-text h4 {
+    color: rgb(17, 17, 17);
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.breadcrumb-links a {
+    font-size: 15px;
+    color: rgb(17, 17, 17);
+    margin-right: 18px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+.breadcrumb-links a::after {
+    position: absolute;
+    right: -14px;
+    top: 0px;
+    content: ">";
+    font-family: FontAwesome;
+}
+.breadcrumb-links span {
+    font-size: 15px;
+    color: rgb(183, 183, 183);
+    display: inline-block;
+}
+
+.shop-sidebar-search form input {
+    width: 100%;
+    font-size: 15px;
+    color: rgb(183, 183, 183);
+    padding-left: 20px;
+    height: 42px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(229, 229, 229);
+    border-image: initial;
+}
+.shop-sidebar-search form button {
+    color: rgb(183, 183, 183);
+    font-size: 15px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    background: transparent;
+    padding: 0px 15px;
+}
+.shop-product-option p {
+    color: rgb(17, 17, 17);
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(61, 61, 61);
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0px 0px 15px;
+}
+.shop-product-option-right p {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.shop-product-cption p {
+    color: rgb(17, 17, 17) !important;
+    margin-bottom: 0px;
+}
+p {
+    font-size: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(61, 61, 61);
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0px 0px 15px;
+}
+
+
+
+
+
+
+
+#footer{
+    background: #111111;
+}
