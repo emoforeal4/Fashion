@@ -135,61 +135,6 @@
     display: inline-block;
 }
 
-.shop-sidebar-search form input {
-    width: 100%;
-    font-size: 15px;
-    color: rgb(183, 183, 183);
-    padding-left: 20px;
-    height: 42px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(229, 229, 229);
-    border-image: initial;
-}
-.shop-sidebar-search form button {
-    color: rgb(183, 183, 183);
-    font-size: 15px;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    height: 100%;
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
-    background: transparent;
-    padding: 0px 15px;
-}
-.shop-product-option p {
-    color: rgb(17, 17, 17);
-    margin-bottom: 0px;
-    font-size: 15px;
-    font-family: "Nunito Sans", sans-serif;
-    color: rgb(61, 61, 61);
-    font-weight: 400;
-    line-height: 25px;
-    margin: 0px 0px 15px;
-}
-.shop-product-option-right p {
-    display: inline-block;
-    margin-bottom: 0px;
-}
-.shop-product-cption p {
-    color: rgb(17, 17, 17) !important;
-    margin-bottom: 0px;
-}
-p {
-    font-size: 15px;
-    font-family: "Nunito Sans", sans-serif;
-    color: rgb(61, 61, 61);
-    font-weight: 400;
-    line-height: 25px;
-    margin: 0px 0px 15px;
-}
-
-
-
-
 #footer{
     background: #111111;
 }

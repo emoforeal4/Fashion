@@ -106,7 +106,7 @@
 
   .breadcrumb-blog{
     height: 350px;
-    background-image: url(../images/breadcrumb-bg.jpg);
+    background-image: url(../imgs/breadcrumb-bg.jpg);
     text-align: center;
     display: flex;
     align-items: center;
@@ -116,18 +116,41 @@
     font-size: 60px;
     font-weight: 700;
 }
-.footer-sec{
-    font-size: 17px !important;
-     color: rgb(153, 149, 149); 
-}
 .footer-copyright-text{
     border-top: 0.5px solid rgb(83, 80, 80);
      padding-top: 30px;
 }
 .footer-copyright-text p{
-    color: rgb(153, 149, 149) !important;
+    color: rgb(95, 93, 93);
 }
-.footer-about{
-    font-size: 17px !important;
-    color: rgb(153, 149, 149);
+.footer-about p {
+    color:#b7b7b7;
+    margin-bottom: 30px;
+    font-size: 15px;
 }
+@media (min-width: 992px) {
+    .footer-sec {
+        margin-left: 48.333333px;
+    }
+  }
+  .footer-sec h4 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.footer-sec ul li {
+    line-height: 33px;
+    list-style: none;
+}
+.footer-sec ul li a {
+    color: #b7b7b7;
+    font-size: 14.5px;
+}
+@media (min-width: 992px) {
+    .footer-sec-1 {
+      padding: 0 40px;
+    }
+  }
