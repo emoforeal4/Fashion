@@ -134,58 +134,96 @@
     color: rgb(183, 183, 183);
     display: inline-block;
 }
-
-.shop-sidebar-search form input {
-    width: 100%;
-    font-size: 15px;
-    color: rgb(183, 183, 183);
-    padding-left: 20px;
-    height: 42px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(229, 229, 229);
-    border-image: initial;
-}
-.shop-sidebar-search form button {
-    color: rgb(183, 183, 183);
-    font-size: 15px;
+/* shop */
+.shop__sidebar__color label input{
     position: absolute;
-    right: 0px;
-    top: 0px;
-    height: 100%;
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
-    background: transparent;
-    padding: 0px 15px;
+    visibility: hidden;
 }
-.shop-product-option p {
-    color: rgb(17, 17, 17);
-    margin-bottom: 0px;
-    font-size: 15px;
-    font-family: "Nunito Sans", sans-serif;
-    color: rgb(61, 61, 61);
-    font-weight: 400;
-    line-height: 25px;
-    margin: 0px 0px 15px;
-}
-.shop-product-option-right p {
+.shop__sidebar__color label{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 50%;
     display: inline-block;
-    margin-bottom: 0px;
+    border: #111111 !important;
+    
 }
-.shop-product-cption p {
-    color: rgb(17, 17, 17) !important;
-    margin-bottom: 0px;
+
+/* PRODUCTS SECTION */
+#product .row{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
-p {
+.main{
+    position: relative;
+    width: 250px;
+    overflow: hidden;
+}
+.about-img{
+    width: 100%;
+    display: block;
+}
+.product-action{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    transform: translateX(10px);
+    
+}
+.icon-btn{
+    background: #ffffff;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main:hover .product-action{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+.main:hover .add-to-cart{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+ .add-to-cart{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
     font-size: 15px;
-    font-family: "Nunito Sans", sans-serif;
-    color: rgb(61, 61, 61);
-    font-weight: 400;
-    line-height: 25px;
-    margin: 0px 0px 15px;
+    transition: all;
+    visibility: hidden;
+    transform: translateY(5px);
 }
+.title-card-wrapper{
+    position: relative;
+    height: 24px;
+    margin-top: 20px;
+}
+.product-title{
+    color: #111111;
+    opacity: 1;
+    visibility: visible;
+
+
+}
+.main:hover .product-title{
+    opacity: 0;
+    visibility: hidden;
+}
+
+
 
 
 
@@ -193,41 +231,3 @@ p {
 #footer{
     background: #111111;
 }
-.footer-copyright-text{
-    border-top: 0.5px solid rgb(83, 80, 80);
-     padding-top: 30px;
-}
-.footer-copyright-text p{
-    color: rgb(95, 93, 93);
-}
-.footer-about p {
-    color:#b7b7b7;
-    margin-bottom: 30px;
-    font-size: 15px;
-}
-@media (min-width: 992px) {
-    .footer-sec {
-        margin-left: 48.333333px;
-    }
-  }
-  .footer-sec h4 {
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-}
-.footer-sec ul li {
-    line-height: 33px;
-    list-style: none;
-}
-.footer-sec ul li a {
-    color: #b7b7b7;
-    font-size: 14.5px;
-}
-@media (min-width: 992px) {
-    .footer-sec-1 {
-      padding: 0 40px;
-    }
-  }

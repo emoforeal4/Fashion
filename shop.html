@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/shop-styles.css">
 </head>
@@ -122,158 +123,156 @@
                 <div class="col-lg-3">
                     <div class="shop-sidebar" style="padding-right: 24px;">
                         <div class="shop-sidebar-search" style="margin-bottom: 48px ;">
-                            <form action="#" style="position: relative;">
-                                <input type="text" placeholder="Search...">
-                                <button type="submit"><span class="icon_search"></span></button>
-                            </form>
+                            
+                                <div class="input-group position-relative">
+                                <input type="text" class="form-control rounded-0 text-secondary pt-2 pb-2" placeholder="Search..." aria-label="Search">
+                                <span class="position-absolute top-50 end-0 translate-middle-y pe-3 text-secondary"><i class="bi bi-search"></i></span>
+                                </div>
+                            
                         </div>
                         <div class="shop__sidebar__accordion">
-                            <div class="accordion" id="accordionExample">
-                                <div class="card">
+                            <div class="accordion" id="accordionExample ">
+                                <div class="card border-0 border-bottom border-2 rounded-0">
                                     <div class="card-heading">
-                                        <a data-toggle="collapse" data-target="#collapseOne">Categories</a>
+                                        <a  class="text-start text-decoration-none ps-3 list-unstyled text-dark fw-semibold " data-toggle="collapse" data-target="#collapseOne">CATEGORIES</a>
                                     </div>
                                     <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
-                                        <div class="card-body">
+                                        <div class="card-body"> 
                                             <div class="shop__sidebar__categories">
-                                                <ul class="nice-scroll">
-                                                    <li><a href="#">Men (20)</a></li>
-                                                    <li><a href="#">Women (20)</a></li>
-                                                    <li><a href="#">Bags (20)</a></li>
-                                                    <li><a href="#">Clothing (20)</a></li>
-                                                    <li><a href="#">Shoes (20)</a></li>
-                                                    <li><a href="#">Accessories (20)</a></li>
-                                                    <li><a href="#">Kids (20)</a></li>
-                                                    <li><a href="#">Kids (20)</a></li>
-                                                    <li><a href="#">Kids (20)</a></li>
+                                                <ul class="nice-scroll list-unstyled                                                                                                                                                                            ">
+                                                    <li class="mb-2"><a class="text-decoration-none  text-secondary fw-normal " href="#">Men (20)</a></li>
+                                                    <li class="mb-2"><a class="text-decoration-none  text-secondary fw-normal" href="#">Women (20)</a></li>
+                                                    <li class="mb-2"><a class="text-decoration-none  text-secondary fw-normal" href="#">Bags (20)</a></li>
+                                                    <li class="mb-2"><a class="text-decoration-none  text-secondary fw-normal" href="#">Clothing (20)</a></li>
+                                                    <li class="mb-2"><a class="text-decoration-none  text-secondary fw-normal" href="#">Shoes (20)</a></li>
+                                                    <li class="mb-2"><a class="text-decoration-none  text-secondary fw-normal" href="#">Accessories (20)</a></li>
+                                                    <li class="mb-2"><a class="text-decoration-none  text-secondary fw-normal" href="#">Kids (20)</a></li>
+                                                    <li class="mb-2"><a class="text-decoration-none  text-secondary fw-normal" href="#">Kids (20)</a></li>
+                                                    <li class="mb-2"><a class="text-decoration-none  text-secondary fw-normal" href="#">Kids (20)</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <div class="card-heading">
-                                        <a data-toggle="collapse" data-target="#collapseTwo">Branding</a>
+                                <div class="card border-0 border-bottom border-2 rounded-0">
+                                    <div class="card-heading fw-semibold pt-2" style="padding-left:0px ;">
+                                        <a  class="text-start text-decoration-none list-unstyled text-dark fw-semibold ps-3" data-toggle="collapse" data-target="#collapseTwo">BRANDING</a>
                                     </div>
                                     <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
                                         <div class="card-body">
                                             <div class="shop__sidebar__brand">
-                                                <ul>
-                                                    <li><a href="#">Louis Vuitton</a></li>
-                                                    <li><a href="#">Chanel</a></li>
-                                                    <li><a href="#">Hermes</a></li>
-                                                    <li><a href="#">Gucci</a></li>
+                                                <ul class="list-unstyled">
+                                                    <li class="mb-2"><a  class="text-decoration-none  text-secondary pt-1 pb-1 fw-normal" href="#">Louis Vuitton</a></li>
+                                                    <li class="mb-2"><a  class="text-decoration-none  text-secondary pt-1 pb-1 fw-normal" href="#">Chanel</a></li>
+                                                    
+                                                    <li class="mb-2"><a  class="text-decoration-none  text-secondary pt-1 pb-1 fw-normal"  href="#">Hermes</a></li>
+                                                    <li class=""><a  class="text-decoration-none  text-secondary pt-1 pb-1 fw-normal" href="#">Gucci</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <div class="card-heading">
-                                        <a data-toggle="collapse" data-target="#collapseThree">Filter Price</a>
+                                <div class="card border-0 border-2 border-bottom rounded-0">
+                                    <div class="card-heading pt-2 " style="padding-left:0px ;">
+                                        <a class="text-start ps-3 text-decoration-none list-unstyled text-dark fw-semibold" data-toggle="collapse" data-target="#collapseThree">FILTER PRICE</a>
                                     </div>
                                     <div id="collapseThree" class="collapse show" data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <div class="shop__sidebar__price">
-                                                <ul>
-                                                    <li><a href="#">$0.00 - $50.00</a></li>
-                                                    <li><a href="#">$50.00 - $100.00</a></li>
-                                                    <li><a href="#">$100.00 - $150.00</a></li>
-                                                    <li><a href="#">$150.00 - $200.00</a></li>
-                                                    <li><a href="#">$200.00 - $250.00</a></li>
-                                                    <li><a href="#">250.00+</a></li>
+                                            <div class="shop__sidebar__price ">
+                                                <ul class="list-unstyled mb-2">
+                                                    <li class="mb-2"><a class="text-decoration-none fs-5 text-secondary fw-normal" href="#">$0.00 - $50.00</a></li>
+                                                    <li class="mb-2"><a class="text-decoration-none fs-5  text-secondary fw-normal" href="#">$50.00 - $100.00</a></li>
+                                                    <li class="mb-2"><a class="text-decoration-none fs-5  text-secondary fw-normal" href="#">$100.00 - $150.00</a></li>
+                                                    <li class="mb-2"><a class="text-decoration-none fs-5  text-secondary fw-normal" href="#">$150.00 - $200.00</a></li>
+                                                    <li class="mb-2"><a class="text-decoration-none fs-5  text-secondary fw-normal" href="#">$200.00 - $250.00</a></li>
+                                                    <li class="mb-2"><a class="text-decoration-none fs-5 text-secondary fw-normal" href="#">250.00+</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <div class="card-heading">
-                                        <a data-toggle="collapse" data-target="#collapseFour">Size</a>
+                                <div class="card border-0 border-bottom border-2 rounded-0">
+                                    <div class="card-heading pt-2 fw-semibold" style="padding-left:0px ; ">
+                                        <a  class="text-start text-decoration-none ps-3 list-unstyled text-dark fw-semibold" data-toggle="collapse" data-target="#collapseFour">SIZE</a>
                                     </div>
                                     <div id="collapseFour" class="collapse show" data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <div class="shop__sidebar__size">
-                                                <label for="xs">xs
-                                                    <input type="radio" id="xs">
-                                                </label>
-                                                <label for="sm">s
-                                                    <input type="radio" id="sm">
-                                                </label>
-                                                <label for="md">m
-                                                    <input type="radio" id="md">
-                                                </label>
-                                                <label for="xl">xl
-                                                    <input type="radio" id="xl">
-                                                </label>
-                                                <label for="2xl">2xl
-                                                    <input type="radio" id="2xl">
-                                                </label>
-                                                <label for="xxl">xxl
-                                                    <input type="radio" id="xxl">
-                                                </label>
-                                                <label for="3xl">3xl
-                                                    <input type="radio" id="3xl">
-                                                </label>
-                                                <label for="4xl">4xl
-                                                    <input type="radio" id="4xl">
-                                                </label>
+                                            <div class="shop__sidebar__SIZE">
+                                                
+                                                    <input type="text" id="xs" placeholder="XS" class="text-center pt-1 pb-1 me-2  mt-3 mb-3 fs-5 text-DARK" style="width: 80px;">
+                                                
+                                            
+                                                    <input type="text" id="sm" placeholder="S" class="text-center pt-1 pb-1 me-2   mt-3 mb-3 fs-5 text-black" style="width: 65px; color: #0b090a;">
+                                            
+                                                    <input type="text" id="md" placeholder="M" class="text-center pt-1 pb-1 me-2 mb-3 fs-5" style="width: 70px;">
+                    
+                                                    <input type="text" id="xl" placeholder="XL" class="text-center pt-1 pb-1 me-2   mb-3 fs-5" style="width: 85px;">
+            
+                                                    <input type="text" id="2xl" placeholder="2XL" class="text-center pt-1 pb-1 me-2  mb-3 fs-5" style="width: 85px;">
+                                                
+                                                    <input type="text" id="xxl" placeholder="XXL" class="text-center pt-1 pb-1 me-2  mb-3 fs-5" style="width: 90px;">
+                                            
+                                                    <input type="text" id="3xl" placeholder="3XL" class="text-center pt-1 pb-1 me-2  mb-3 fs-5" style="width: 90px;">
+                                                
+                                                    <input type="text" id="4xl" placeholder="4XL" class="text-center pt-1 pb-1 me-2   mb-3 fs-5" style="width: 90px;">
+                                                
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <div class="card-heading">
-                                        <a data-toggle="collapse" data-target="#collapseFive">Colors</a>
+                                <div class="card border-0 border-bottom border-2 rounded-0">
+                                    <div class="card-heading pt-2 fw-semibold" style="padding-left:40px ;">
+                                        <a class="text-start text-decoration-none list-unstyled text-dark fw-semibold" data-toggle="collapse" data-target="#collapseFive" style="font-size: 14PX; font-weight: 400;">COLORS</a>
                                     </div>
                                     <div id="collapseFive" class="collapse show" data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <div class="shop__sidebar__color">
-                                                <label class="c-1" for="sp-1">
-                                                    <input type="radio" id="sp-1">
+                                            <div class="shop__sidebar__color ps-4 pe-4 ">
+                                                <label class="c-1 me-2 " for="sp-1" style="background:#0b090a;">
+                                                    <input type="radio" id="sp-1" >
                                                 </label>
-                                                <label class="c-2" for="sp-2">
+                                                <label class="c-2 me-2" for="sp-2" style="background:lightblue;">
                                                     <input type="radio" id="sp-2">
                                                 </label>
-                                                <label class="c-3" for="sp-3">
+                                                <label class="c-3 me-2" for="sp-3" style="background:#a8a8a8;">
                                                     <input type="radio" id="sp-3">
                                                 </label>
-                                                <label class="c-4" for="sp-4">
+                                                <label class="c-4 me-2" for="sp-4" style="background:#d47159;">
                                                     <input type="radio" id="sp-4">
                                                 </label>
-                                                <label class="c-5" for="sp-5">
+                                                <label class="c-5 me-2" for="sp-5" style="background:#20315f;">
                                                     <input type="radio" id="sp-5">
                                                 </label>
-                                                <label class="c-6" for="sp-6">
+                                                <label class="c-6 me-2" for="sp-6" style="background:#f1af4d;">
                                                     <input type="radio" id="sp-6">
                                                 </label>
-                                                <label class="c-7" for="sp-7">
+                                                <label class="c-7 me-2" for="sp-7" style="background:#636363;">
                                                     <input type="radio" id="sp-7">
                                                 </label>
-                                                <label class="c-8" for="sp-8">
+                                                <label class="c-8 me-2" for="sp-8" style="background:#0d0d0d;">
                                                     <input type="radio" id="sp-8">
                                                 </label>
-                                                <label class="c-9" for="sp-9">
+                                                <label class="c-9 me-2" for="sp-9" style="background:#e8c5c8;">
                                                     <input type="radio" id="sp-9">
                                                 </label>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <div class="card-heading">
-                                        <a data-toggle="collapse" data-target="#collapseSix">Tags</a>
+                            
+                                <div class="card border-0   rounded-0 mb-2 p-3">
+                                    <div class="card-heading" >
+                                        <a class="text-start text-decoration-none list-unstyled text-dark ms-3 fw-semibold" data-toggle="collapse text-start" data-target="#collapseSix">TAGS</a>
                                     </div>
                                     <div id="collapseSix" class="collapse show" data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <div class="shop__sidebar__tags">
-                                                <a href="#">Product</a>
-                                                <a href="#">Bags</a>
-                                                <a href="#">Shoes</a>
-                                                <a href="#">Fashio</a>
-                                                <a href="#">Clothing</a>
-                                                <a href="#">Hats</a>
-                                                <a href="#">Accessories</a>
+                                            <div class="shop__sidebar__tags ">
+                                                <a class=" btn btn-lg rounded-0 text-dark bg-secondary-subtle  me-2 mb-2 fw-semibold"  href="#" style="font-size: 14px;">PRODUCT</a>
+                                                <a class=" btn btn-lg rounded-0 text-decoration-none text-dark bg-secondary-subtle  me-2 mb-2 fw-semibold"  href="#" style="font-size: 14px ;">BAGS</a>
+                                                <a class="btn btn-lg rounded-0 text-decoration-none text-dark bg-secondary-subtle  me-2 mb-2 fw-semibold" href="#"style="font-size: 14px ;">SHOES</a>
+                                                <a class="btn btn-lg rounded-0 text-decoration-none text-dark bg-secondary-subtle me-2 mb-2 fw-semibold"  href="#" style="font-size: 14px ;">FASHIO</a>
+                                                <a class="btn btn-lg rounded-0 text-decoration-none text-dark bg-secondary-subtle me-2 mb-2 fw-semibold"  href="#" style="font-size: 14px ;">CLOTHING</a>
+                                                <a class="btn btn-lg rounded-0 text-decoration-none text-dark bg-secondary-subtle me-2 mb-2 fw-semibold"  href="#" style="font-size: 14px ;">HATS</a>
+                                                <a class="btn btn-lg rounded-0 text-decoration-none text-dark bg-secondary-subtle me-2 mb-2 fw-semibold"  href="#" style="font-size: 14px ;">ACCESSORIES</a>
                                             </div>
                                         </div>
                                     </div>
@@ -287,17 +286,16 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="shop-product-option-left">
-                                    <p>Showing 1–12 of 126 results</p>
+                                    <p class="fs-5 text-black">Showing 1–12 of 126 results</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="shop-product-option-right text-end d-flex justify-content-center align-items-center">
-                                    <p>Sort by Price:</p>
+                                <div
+                                    class="shop-product-option-right text-end d-flex justify-content-center align-items-center ">
+                                    <p class="text-black">Sort by Price: <button class="btn fw-semibold  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Low To High </button></p>
                                     <div class="dropdown">
-                                        <button class="btn  dropdown-toggle" type="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Low To High
-                                        </button>
                                         <ul class="dropdown-menu dropdown-menu-dark">
                                             <li><a class="dropdown-item active" href="#">$0 - $55</a></li>
                                             <li><a class="dropdown-item" href="#">$55 - $100</a></li>
@@ -310,438 +308,396 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="product-item">
-                                <div class="product-item-pic set-bg" data-setbg="img/product/product-2.jpg">
-                                    <ul class="product__hover">
-                                        <li><a href="#"><img src="./imgs/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="./imgs/search.png" alt=""> <span>Compare</span></a>
-                                        </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                                    </ul>
-                                </div>
-                                <div class="product__item__text">
-                                    <h6>Piqué Biker Jacket</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
-                                    <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+                            <div class="main m-0 ">
+                                <div class="about-img">
+                                    <img src="./imgs/product-2.jpg" class="img-fluid" alt="product-2">
+
+                                    <div class="product-action">
+                                        <button class="icon-btn"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-arrow-left-right"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-search"></i></button>
+
                                     </div>
-                                    <h5>$67.24</h5>
-                                    <div class="product__color__select">
-                                        <label for="pc-4">
-                                            <input type="radio" id="pc-4">
-                                        </label>
-                                        <label class="active black" for="pc-5">
-                                            <input type="radio" id="pc-5">
-                                        </label>
-                                        <label class="grey" for="pc-6">
-                                            <input type="radio" id="pc-6">
-                                        </label>
+
+
+                                    <div class="about-content">
+                                        <div class="title-card-wrapper position-relative">
+                                            <h5 class="product-title mt-4b position-absolute"> Pique Biker Jacket</h5>
+                                            <a href="#" class="add-to-cart text-decoration-none text-danger ">+ Add to
+                                                Cart</a>
+                                        </div>
+                                        <div class="icon d-flex">
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                        </div>
+                                        <h5 class="pt-2 pb-4"><i class="bi bi-currency-dollar"></i>67.24</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="product__item sale">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-3.jpg">
-                                    <span class="label">Sale</span>
-                                    <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
-                                        </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                                    </ul>
-                                </div>
-                                <div class="product__item__text">
-                                    <h6>Multi-pocket Chest Bag</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
-                                    <div class="rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star-o"></i>
+                            <div class="main m-0 ">
+                                <div class="about-img">
+                                    <img src="./imgs/product-3.jpg" class="img-fluid" alt="product-3">
+
+                                    <div class="product-action">
+                                        <button class="icon-btn"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-arrow-left-right"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-search"></i></button>
+
                                     </div>
-                                    <h5>$43.48</h5>
-                                    <div class="product__color__select">
-                                        <label for="pc-7">
-                                            <input type="radio" id="pc-7">
-                                        </label>
-                                        <label class="active black" for="pc-8">
-                                            <input type="radio" id="pc-8">
-                                        </label>
-                                        <label class="grey" for="pc-9">
-                                            <input type="radio" id="pc-9">
-                                        </label>
+
+
+                                    <div class="about-content">
+                                        <div class="title-card-wrapper position-relative">
+                                            <h5 class="product-title mt-4b position-absolute"> Pique Biker Jacket</h5>
+                                            <a href="#" class="add-to-cart text-decoration-none text-danger ">+ Add to
+                                                Cart</a>
+                                        </div>
+                                        <div class="icon d-flex">
+                                            <i class="bi bi-star-fill  text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill  text-warning"></i>
+                                            <i class="bi bi-star-fill  text-warning"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                        </div>
+                                        <h5 class="pt-2 pb-4"><i class="bi bi-currency-dollar"></i>67.24</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-4.jpg">
-                                    <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
-                                        </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                                    </ul>
-                                </div>
-                                <div class="product__item__text">
-                                    <h6>Diagonal Textured Cap</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
-                                    <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+
+                            <div class="main m-0 ">
+                                <div class="about-img">
+                                    <img src="./imgs/product-4.jpg" class="img-fluid" alt="product-4">
+
+                                    <div class="product-action">
+                                        <button class="icon-btn"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-arrow-left-right"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-search"></i></button>
+
                                     </div>
-                                    <h5>$60.9</h5>
-                                    <div class="product__color__select">
-                                        <label for="pc-10">
-                                            <input type="radio" id="pc-10">
-                                        </label>
-                                        <label class="active black" for="pc-11">
-                                            <input type="radio" id="pc-11">
-                                        </label>
-                                        <label class="grey" for="pc-12">
-                                            <input type="radio" id="pc-12">
-                                        </label>
+
+
+                                    <div class="about-content">
+                                        <div class="title-card-wrapper position-relative">
+                                            <h5 class="product-title mt-4b position-absolute"> Pique Biker Jacket</h5>
+                                            <a href="#" class="add-to-cart text-decoration-none text-danger ">+ Add to
+                                                Cart</a>
+                                        </div>
+                                        <div class="icon d-flex">
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                        </div>
+                                        <h5 class="pt-2 pb-4"><i class="bi bi-currency-dollar"></i>67.24</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="product__item sale">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-6.jpg">
-                                    <span class="label">Sale</span>
-                                    <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
-                                        </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                                    </ul>
-                                </div>
-                                <div class="product__item__text">
-                                    <h6>Ankle Boots</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
-                                    <div class="rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star-o"></i>
+
+                            <div class="main m-0 ">
+                                <div class="about-img">
+                                    <img src="./imgs/product-6.jpg" class="img-fluid" alt="product-6">
+
+                                    <div class="product-action">
+                                        <button class="icon-btn"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-arrow-left-right"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-search"></i></button>
+
                                     </div>
-                                    <h5>$98.49</h5>
-                                    <div class="product__color__select">
-                                        <label for="pc-16">
-                                            <input type="radio" id="pc-16">
-                                        </label>
-                                        <label class="active black" for="pc-17">
-                                            <input type="radio" id="pc-17">
-                                        </label>
-                                        <label class="grey" for="pc-18">
-                                            <input type="radio" id="pc-18">
-                                        </label>
+
+
+                                    <div class="about-content">
+                                        <div class="title-card-wrapper position-relative">
+                                            <h5 class="product-title mt-4b position-absolute"> Pique Biker Jacket</h5>
+                                            <a href="#" class="add-to-cart text-decoration-none text-danger ">+ Add to
+                                                Cart</a>
+                                        </div>
+                                        <div class="icon d-flex">
+                                            <i class="bi bi-star-fill  text-warning"></i>
+                                            <i class="bi bi-star-fill  text-warning"></i>
+                                            <i class="bi bi-star-fill  text-warning"></i>
+                                            <i class="bi bi-star-fill  text-warning"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                        </div>
+                                        <h5 class="pt-2 pb-4"><i class="bi bi-currency-dollar"></i>67.24</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-7.jpg">
-                                    <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
-                                        </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                                    </ul>
-                                </div>
-                                <div class="product__item__text">
-                                    <h6>T-shirt Contrast Pocket</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
-                                    <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+                            <div class="main m-0 ">
+                                <div class="about-img">
+                                    <img src="./imgs/product-8.jpg" class="img-fluid" alt="product-8">
+
+                                    <div class="product-action">
+                                        <button class="icon-btn"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-arrow-left-right"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-search"></i></button>
+
                                     </div>
-                                    <h5>$49.66</h5>
-                                    <div class="product__color__select">
-                                        <label for="pc-19">
-                                            <input type="radio" id="pc-19">
-                                        </label>
-                                        <label class="active black" for="pc-20">
-                                            <input type="radio" id="pc-20">
-                                        </label>
-                                        <label class="grey" for="pc-21">
-                                            <input type="radio" id="pc-21">
-                                        </label>
+
+
+                                    <div class="about-content">
+                                        <div class="title-card-wrapper position-relative">
+                                            <h5 class="product-title mt-4b position-absolute"> Pique Biker Jacket</h5>
+                                            <a href="#" class="add-to-cart text-decoration-none text-danger ">+ Add to
+                                                Cart</a>
+                                        </div>
+                                        <div class="icon d-flex">
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                        </div>
+                                        <h5 class="pt-2 pb-4"><i class="bi bi-currency-dollar"></i>67.24</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-8.jpg">
-                                    <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
-                                        </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                                    </ul>
-                                </div>
-                                <div class="product__item__text">
-                                    <h6>Basic Flowing Scarf</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
-                                    <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+                            <div class="main m-0 ">
+                                <div class="about-img">
+                                    <img src="./imgs/product-7.jpg" class="img-fluid" alt="product-7">
+
+                                    <div class="product-action">
+                                        <button class="icon-btn"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-arrow-left-right"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-search"></i></button>
+
                                     </div>
-                                    <h5>$26.28</h5>
-                                    <div class="product__color__select">
-                                        <label for="pc-22">
-                                            <input type="radio" id="pc-22">
-                                        </label>
-                                        <label class="active black" for="pc-23">
-                                            <input type="radio" id="pc-23">
-                                        </label>
-                                        <label class="grey" for="pc-24">
-                                            <input type="radio" id="pc-24">
-                                        </label>
+
+
+                                    <div class="about-content">
+                                        <div class="title-card-wrapper position-relative">
+                                            <h5 class="product-title mt-4b position-absolute"> Pique Biker Jacket</h5>
+                                            <a href="#" class="add-to-cart text-decoration-none text-danger ">+ Add to
+                                                Cart</a>
+                                        </div>
+                                        <div class="icon d-flex">
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                        </div>
+                                        <h5 class="pt-2 pb-4"><i class="bi bi-currency-dollar"></i>67.24</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-9.jpg">
-                                    <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
-                                        </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                                    </ul>
-                                </div>
-                                <div class="product__item__text">
-                                    <h6>Piqué Biker Jacket</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
-                                    <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+                            <div class="main m-0 ">
+                                <div class="about-img">
+                                    <img src="./imgs/product-9.jpg" class="img-fluid" alt="product-9">
+
+                                    <div class="product-action">
+                                        <button class="icon-btn"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-arrow-left-right"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-search"></i></button>
+
                                     </div>
-                                    <h5>$67.24</h5>
-                                    <div class="product__color__select">
-                                        <label for="pc-25">
-                                            <input type="radio" id="pc-25">
-                                        </label>
-                                        <label class="active black" for="pc-26">
-                                            <input type="radio" id="pc-26">
-                                        </label>
-                                        <label class="grey" for="pc-27">
-                                            <input type="radio" id="pc-27">
-                                        </label>
+
+
+                                    <div class="about-content">
+                                        <div class="title-card-wrapper position-relative">
+                                            <h5 class="product-title mt-4b position-absolute"> Pique Biker Jacket</h5>
+                                            <a href="#" class="add-to-cart text-decoration-none text-danger ">+ Add to
+                                                Cart</a>
+                                        </div>
+                                        <div class="icon d-flex">
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                        </div>
+                                        <h5 class="pt-2 pb-4"><i class="bi bi-currency-dollar"></i>67.24</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="product__item sale">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-10.jpg">
-                                    <span class="label">Sale</span>
-                                    <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
-                                        </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                                    </ul>
-                                </div>
-                                <div class="product__item__text">
-                                    <h6>Multi-pocket Chest Bag</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
-                                    <div class="rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star-o"></i>
+                            <div class="main m-0 ">
+                                <div class="about-img">
+                                    <img src="./imgs/product-10.jpg" class="img-fluid" alt="product-10">
+
+                                    <div class="product-action">
+                                        <button class="icon-btn"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-arrow-left-right"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-search"></i></button>
+
                                     </div>
-                                    <h5>$43.48</h5>
-                                    <div class="product__color__select">
-                                        <label for="pc-28">
-                                            <input type="radio" id="pc-28">
-                                        </label>
-                                        <label class="active black" for="pc-29">
-                                            <input type="radio" id="pc-29">
-                                        </label>
-                                        <label class="grey" for="pc-30">
-                                            <input type="radio" id="pc-30">
-                                        </label>
+
+
+                                    <div class="about-content">
+                                        <div class="title-card-wrapper position-relative">
+                                            <h5 class="product-title mt-4b position-absolute"> Pique Biker Jacket</h5>
+                                            <a href="#" class="add-to-cart text-decoration-none text-danger ">+ Add to
+                                                Cart</a>
+                                        </div>
+                                        <div class="icon d-flex">
+                                            <i class="bi bi-star-fill  text-warning"></i>
+                                            <i class="bi bi-star-fill  text-warning"></i>
+                                            <i class="bi bi-star-fill  text-warning"></i>
+                                            <i class="bi bi-star-fill  text-warning"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                        </div>
+                                        <h5 class="pt-2 pb-4"><i class="bi bi-currency-dollar"></i>67.24</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-11.jpg">
-                                    <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
-                                        </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                                    </ul>
-                                </div>
-                                <div class="product__item__text">
-                                    <h6>Diagonal Textured Cap</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
-                                    <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+                            <div class="main m-0 ">
+                                <div class="about-img">
+                                    <img src="./imgs/product-11.jpg" class="img-fluid" alt="product-11">
+
+                                    <div class="product-action">
+                                        <button class="icon-btn"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-arrow-left-right"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-search"></i></button>
+
                                     </div>
-                                    <h5>$60.9</h5>
-                                    <div class="product__color__select">
-                                        <label for="pc-31">
-                                            <input type="radio" id="pc-31">
-                                        </label>
-                                        <label class="active black" for="pc-32">
-                                            <input type="radio" id="pc-32">
-                                        </label>
-                                        <label class="grey" for="pc-33">
-                                            <input type="radio" id="pc-33">
-                                        </label>
+
+
+                                    <div class="about-content">
+                                        <div class="title-card-wrapper position-relative">
+                                            <h5 class="product-title mt-4b position-absolute"> Pique Biker Jacket</h5>
+                                            <a href="#" class="add-to-cart text-decoration-none text-danger ">+ Add to
+                                                Cart</a>
+                                        </div>
+                                        <div class="icon d-flex">
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                        </div>
+                                        <h5 class="pt-2 pb-4"><i class="bi bi-currency-dollar"></i>67.24</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="product__item sale">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-12.jpg">
-                                    <span class="label">Sale</span>
-                                    <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
-                                        </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                                    </ul>
-                                </div>
-                                <div class="product__item__text">
-                                    <h6>Ankle Boots</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
-                                    <div class="rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star-o"></i>
+                            <div class="main m-0 ">
+                                <div class="about-img">
+                                    <img src="./imgs/product-12.jpg" class="img-fluid" alt="product-12">
+
+                                    <div class="product-action">
+                                        <button class="icon-btn"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-arrow-left-right"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-search"></i></button>
+
                                     </div>
-                                    <h5>$98.49</h5>
-                                    <div class="product__color__select">
-                                        <label for="pc-34">
-                                            <input type="radio" id="pc-34">
-                                        </label>
-                                        <label class="active black" for="pc-35">
-                                            <input type="radio" id="pc-35">
-                                        </label>
-                                        <label class="grey" for="pc-36">
-                                            <input type="radio" id="pc-36">
-                                        </label>
+
+
+                                    <div class="about-content">
+                                        <div class="title-card-wrapper position-relative">
+                                            <h5 class="product-title mt-4b position-absolute"> Pique Biker Jacket</h5>
+                                            <a href="#" class="add-to-cart text-decoration-none text-danger ">+ Add to
+                                                Cart</a>
+                                        </div>
+                                        <div class="icon d-flex">
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill  text-warning"></i>
+                                            <i class="bi bi-star-fill  text-warning"></i>
+                                            <i class="bi bi-star-fill  text-warning"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                        </div>
+                                        <h5 class="pt-2 pb-4"><i class="bi bi-currency-dollar"></i>67.24</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-13.jpg">
-                                    <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
-                                        </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                                    </ul>
-                                </div>
-                                <div class="product__item__text">
-                                    <h6>T-shirt Contrast Pocket</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
-                                    <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+                        
+  <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="main m-0 ">
+                                <div class="about-img">
+                                    <img src="./imgs/product-13.jpg" class="img-fluid" alt="product-13">
+
+                                    <div class="product-action">
+                                        <button class="icon-btn"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-arrow-left-right"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-search"></i></button>
+
                                     </div>
-                                    <h5>$49.66</h5>
-                                    <div class="product__color__select">
-                                        <label for="pc-37">
-                                            <input type="radio" id="pc-37">
-                                        </label>
-                                        <label class="active black" for="pc-38">
-                                            <input type="radio" id="pc-38">
-                                        </label>
-                                        <label class="grey" for="pc-39">
-                                            <input type="radio" id="pc-39">
-                                        </label>
+
+
+                                    <div class="about-content">
+                                        <div class="title-card-wrapper position-relative">
+                                            <h5 class="product-title mt-4b position-absolute"> Pique Biker Jacket</h5>
+                                            <a href="#" class="add-to-cart text-decoration-none text-danger ">+ Add to
+                                                Cart</a>
+                                        </div>
+                                        <div class="icon d-flex">
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                        </div>
+                                        <h5 class="pt-2 pb-4"><i class="bi bi-currency-dollar"></i>67.24</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-14.jpg">
-                                    <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
-                                        </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
-                                    </ul>
-                                </div>
-                                <div class="product__item__text">
-                                    <h6>Basic Flowing Scarf</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
-                                    <div class="rating">
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        <i class="fa fa-star-o"></i>
+                          <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="main m-0 ">
+                                <div class="about-img">
+                                    <img src="./imgs/product-14.jpg" class="img-fluid" alt="product-14">
+
+                                    <div class="product-action">
+                                        <button class="icon-btn"><i class="bi bi-heart"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-arrow-left-right"></i></button>
+                                        <button class="icon-btn"><i class="bi bi-search"></i></button>
+
                                     </div>
-                                    <h5>$26.28</h5>
-                                    <div class="product__color__select">
-                                        <label for="pc-40">
-                                            <input type="radio" id="pc-40">
-                                        </label>
-                                        <label class="active black" for="pc-41">
-                                            <input type="radio" id="pc-41">
-                                        </label>
-                                        <label class="grey" for="pc-42">
-                                            <input type="radio" id="pc-42">
-                                        </label>
+
+
+                                    <div class="about-content">
+                                        <div class="title-card-wrapper position-relative">
+                                            <h5 class="product-title mt-4b position-absolute"> Pique Biker Jacket</h5>
+                                            <a href="#" class="add-to-cart text-decoration-none text-danger ">+ Add to
+                                                Cart</a>
+                                        </div>
+                                        <div class="icon d-flex">
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                            <i class="bi bi-star text-secondary"></i>
+                                        </div>
+                                        <h5 class="pt-2 pb-4"><i class="bi bi-currency-dollar"></i>67.24</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="product__pagination">
-                                <a class="active" href="#">1</a>
-                                <a href="#">2</a>
-                                <a href="#">3</a>
-                                <span>...</span>
-                                <a href="#">21</a>
+                        
+                                
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12 justify-content-center d-flex">
+                            <div class="product__pagination mt-5">
+                                <a class="active text-decoration-none border border-1 fs-5 fw-semibold border-black me-3 p-2 rounded-circle text-black d-inline-flex justify-content-center align-items-center" href="#" style="width: 35px; height: 35px;">1</a>
+                                <a class="text-decoration-none me-3 text-black fs-5 fw-semibold" href="#">2</a>
+                                <a class="text-decoration-none me-3 text-black fs-5 fw-semibold" href="#">3</a>
+                                <span class="me-3 text-black fs-5">...</span>
+                                <a class="text-decoration-none text-black fs-5 fw-semibold" href="#">21</a>
                             </div>
                         </div>
                     </div>
@@ -756,161 +712,157 @@
 
 
 
-   <section id="footer" style="background-color: #0a0a0a;">
-    <div class="container text-center" style="padding: 80px 0;">
-      <div class="row">
-        <div class="col-lg-3 col-md-6">
-          <div class="footer-about text-start">
+    <section id="footer">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-about text-start">
 
-            <div class="footer-logo  text-start">
+                        <div class="footer-logo mt-5 text-start">
 
-              <a href="#">
-                <img src="./imgs/footer-logo.png" class="footer-logo mb-5 fs-1" alt="Male Fashion">
-              </a>
+                            <a href="#">
+                                <img src="./imgs/footer-logo.png" class="footer-logo mb-5 fs-1" alt="Male Fashion">
+                            </a>
 
-            </div>
+                        </div>
 
-            <p>
-              The customer is at the heart of our unique
-              business model, which includes design.
-            </p>
+                        <p class="text-white" style="font-size: 17px;">
+                            The customer is at the heart of our unique
+                            business model, which includes design.
+                        </p>
 
-            <a href="#">
-              <img src="./imgs/payment.png" class="img-fluid pt-4" alt="Payment Methods">
-            </a>
+                        <a href="#">
+                            <img src="./imgs/payment.png" class="img-fluid pt-4" alt="Payment Methods">
+                        </a>
 
-          </div>
+                    </div>
 
-        </div>
-
-
-
-        <div class="col-lg-2 col-md-6">
-          <div class="footer-sec offset-lg-1 text-start">
-            <h4 class="text-white">SHOPPING</h4>
-
-            <ul class="list-unstyled">
-
-              <li>
-                <a href="#" class="text-decoration-none">Clothing Store</a>
-              </li>
-
-              <li>
-                <a href="#" class="text-decoration-none ">Trending Shoes</a>
-              </li>
-
-              <li>
-
-                <a href="#" class="text-decoration-none ">Accessories</a>
-              </li>
-
-              <li>
-                <a href="#" class="text-decoration-none">Sale</a>
-              </li>
-
-            </ul>
-
-          </div>
-
-        </div>
-
-        <div class="col-lg-2  col-md-6">
-
-          <div class="footer-sec text-start ">
-
-            <h4 class="text-white">SHOPPING</h4>
-
-            <ul class="list-unstyled">
-
-              <li>
-                <a href="#" class="text-decoration-none  ">Contact Us</a>
-              </li>
-
-              <li>
-                <a href="#" class="text-decoration-none">Payment Methods</a>
-              </li>
-
-              <li>
-                <a href="#" class="text-decoration-none ">Delivary</a>
-              </li>
-
-              <li>
-                <a href="#" class="text-decoration-none ">Return & Exchanges</a>
-              </li>
-
-            </ul>
-
-          </div>
-
-        </div>
-
-
-        <div class="col-lg-5 col-md-6">
-
-          <div class="footer-sec footer-sec-1 text-start">
-
-            <h4 class="text-white ">NEWLETTER</h4>
-
-            <div class="footer-newslatter">
-
-              <p style="color: #b7b7b7; font-size: 15px;">
-                Be the first to know about new arrivals,
-                look books, sales & promos!
-              </p>
-
-              <form id="newsletterForm " class="w-50">
-                <div class="input-group border-bottom border-1 border-white pb-1" style="width: 285px;">
-
-                  <input type="email" placeholder="Your email"
-                    class="form-control rounded-0 bg-transparent border-0    ps-0 shadow-none" required
-                    style="background:#1b1b1b ;">
-
-                  <button type="submit" class="bg-transparent border-0 p-0 shadow-none text-white pe-2 fs-5 pb-3">
-                    <i class="bi bi-envelope"></i>
-                  </button>
                 </div>
-              </form>
+
+
+
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-sec mt-5 text-start" style="font-size: 17px;">
+
+                        <h4 class="text-white pb-4">SHOPPING</h4>
+
+                        <ul class="list-unstyled">
+
+                            <li class="">
+                                <a href="#" class="text-decoration-none text-white">Clothing Store</a>
+                            </li>
+
+                            <li class="pt-3">
+                                <a href="#" class="text-decoration-none text-white">Trending Shoes</a>
+                            </li>
+
+                            <li class="pt-3">
+
+                                <a href="#" class="text-decoration-none text-white">Accessories</a>
+                            </li>
+
+                            <li class="pt-3">
+                                <a href="#" class="text-decoration-none text-white">Sale</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+
+                    <div class="footer-sec mt-5 text-start " style="font-size: 17px;">
+
+                        <h4 class="text-white pb-4">SHOPPING</h4>
+
+                        <ul class="list-unstyled">
+
+                            <li class="pt-1">
+                                <a href="#" class="text-decoration-none text-white ">Contact Us</a>
+                            </li>
+
+                            <li class="pt-3">
+                                <a href="#" class="text-decoration-none text-white ">Payment Methods</a>
+                            </li>
+
+                            <li class="pt-3">
+                                <a href="#" class="text-decoration-none text-white ">Delivary</a>
+                            </li>
+
+                            <li class="pt-3">
+                                <a href="#" class="text-decoration-none text-white ">Return & Exchanges</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3 offset-lg-1 col-md-6">
+
+                    <div class="footer-sec mt-5 text-start">
+
+                        <h4 class="text-white pb-4 ">NEWLETTER</h4>
+
+                        <div class="footer__newslatter">
+
+                            <p class="text-white">
+                                Be the first to know about new arrivals,
+                                look books, sales & promos!
+                            </p>
+
+                            <form id="newsletterForm ">
+
+                                <input type="email" placeholder="Your email" required>
+
+                                <button type="submit">
+                                    <i class="bi bi-envelope "></i>
+                                </button>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
-          </div>
 
-        </div>
-      </div>
+            <div class="row">
 
-    </div>
+                <div class="col-lg-12">
 
+                    <div class="footer-copyright-text text-white mt-5 mb-0">
 
-    <div class="container text-center">
-      <div class="row">
+                        <p class="mb-3">
+                            Copyright ©
+                            <span id="year"></span>
+                            All rights reserved |
+                            This template is made with
+                            <i class="bi bi-heart text-danger"></i>
+                            by
+                            <a href="https://colorlib.com" class="text-decoration-none text-danger" target="_blank">
+                                Colorlib
+                            </a>
+                        </p>
 
-        <div class="col-lg-12">
+                    </div>
 
-          <div class="footer-copyright-text text-white text-secondary">
+                </div>
 
-            <p class="mb-3 ">
-              Copyright ©
-              <span id="year"></span>
-              All rights reserved |
-              This template is made with
-              <i class="bi bi-heart text-danger"></i>
-              by
-              <a href="https://colorlib.com" class="text-decoration-none text-danger" target="_blank">
-                Colorlib
-              </a>
-            </p>
-
-          </div>
+            </div>
 
         </div>
 
-      </div>
-
-    </div>
 
 
-
-  </section>
+    </section>
 
 
     <script>
