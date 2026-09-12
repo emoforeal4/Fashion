@@ -134,20 +134,7 @@
     color: rgb(183, 183, 183);
     display: inline-block;
 }
-/* shop */
-.shop__sidebar__color label input{
-    position: absolute;
-    visibility: hidden;
-}
-.shop__sidebar__color label{
-    height: 30px;
-    width: 30px;
-    cursor: pointer;
-    border-radius: 50%;
-    display: inline-block;
-    border: #111111 !important;
-    
-}
+
 
 /* PRODUCTS SECTION */
 #product .row{
@@ -223,9 +210,19 @@
     visibility: hidden;
 }
 
-
-
-
+.shop__sidebar__color label input{
+    position: absolute;
+    visibility: hidden;
+}
+.shop__sidebar__color label{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-block;
+    border: #111111 !important;
+    
+}
 
 
 #footer{
